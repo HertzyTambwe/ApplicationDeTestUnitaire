@@ -26,7 +26,7 @@ namespace UnitTestProject1
             {
                 EleveID = 1,
                 Nom = "Tambwe",
-                Prenom = "hertzy",
+                Prenom = "Hertzy",
                 Notes = notes
             });
             Assert.IsTrue(eleveController.Index().Content.Equals($"Le nombre d'eleves : 1"));
