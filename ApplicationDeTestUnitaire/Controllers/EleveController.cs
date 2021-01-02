@@ -17,8 +17,11 @@ namespace ApplicationDeTestUnitaire.Controllers
             rep = _rep;
         }
         // GET: Eleve
+
+        [HandleError]
         public ContentResult Index()
         {
+            throw new Exception("J'ai cree une erreur !");
             //rep.Add(new Eleve
             //{
             //    EleveID = 1,
